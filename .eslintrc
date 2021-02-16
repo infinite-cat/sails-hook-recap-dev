@@ -1,0 +1,30 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["jest", "@typescript-eslint"],
+  "settings": {
+    "import/resolver": {"node": {"extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]}},
+    "import/core-modules": ["aws-sdk", "aws-lambda"]
+  },
+  "rules": {
+    "no-param-reassign": "off",
+    "no-restricted-syntax": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {"devDependencies": ["**/*.test.ts", "**/*.spec.ts"]}
+    ],
+    "no-await-in-loop": "off",
+    "prefer-destructuring": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error", {
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-expressions": "error",
+    "class-methods-use-this": "off",
+    "import/extensions": "off"
+  }
+}
