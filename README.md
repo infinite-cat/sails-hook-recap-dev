@@ -24,9 +24,9 @@ recap.dev is an open-source cloud observability and tracing solution for modern 
 
 [Learn how to start with recap.dev](https://recap.dev/docs/)
 
-## sails-hook-recap.dev
+## sails-hook-recap-dev
 
-**sails-hook-recap.dev** repository contains source-code for a Sails.js tracing hook. 
+**sails-hook-recap-dev** repository contains source-code for a Sails.js tracing hook. 
 
 ### Usage
 
