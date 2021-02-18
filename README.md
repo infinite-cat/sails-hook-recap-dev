@@ -33,13 +33,13 @@ recap.dev is an open-source cloud observability and tracing solution for modern 
 1. Install the Hook
 
 ```shell
-yarn add sails-hook-recap.dev
+yarn add sails-hook-recap-dev
 ```
 
 or
 
 ```shell
-npm i --save sails-hook-recap.dev
+npm i --save sails-hook-recap-dev
 ```
 
 2. Configure Sync Endpoint
